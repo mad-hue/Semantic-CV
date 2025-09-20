@@ -1,0 +1,17 @@
+.hero {
+    text-align: center;
+}
+
+.hero__title {
+    font-family: var(--font-secondary);
+    font-size: var(--size-7xl);
+    line-height: 1;
+}
+
+.hero__description {
+    font-family: var(--font-primary);
+    margin-top: 1rem;
+    color: #4a4f5a;
+    max-width: 40ch;
+    margin-inline: auto;
+}
