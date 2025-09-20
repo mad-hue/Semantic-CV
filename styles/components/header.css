@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title-container {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    width: var(--size-9xl);
+    height: var(--size-9xl);
+    object-fit: contain;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.header__title {
+    font-family: var(--font-secondary);
+    font-size: var(--size-6xl);
+}
+
+.header__menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.header__id {
+    text-decoration: none;
+    color: black;
+    font-size: var(--size-xl);
+}
+
+.contact-id {
+    margin-right: 1rem;
+}
+
+.header__separator {
+    border: 1px solid #4b505a;
+    transform: rotate(20deg);
+}
