@@ -1,0 +1,10 @@
+.footer {
+    text-align: center;
+}
+
+.footer__description {
+    font-family: var(--font-secondary);
+    font-size: var(--size-3xl);
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
