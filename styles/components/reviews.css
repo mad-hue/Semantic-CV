@@ -1,0 +1,28 @@
+.title {
+    padding: 0 1rem 1rem;
+}
+
+.reviews__container {
+    font-family: var(--font-primary);
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reviews__box {
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 2rem;
+    max-width: 30ch;
+}
+
+.reviews__description {
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.reviews__name, 
+.reviews__jt {
+    color: #757380;
+}
