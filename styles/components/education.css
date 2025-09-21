@@ -1,0 +1,18 @@
+.education {
+    border: 1px solid black;
+    padding: 1rem;
+    font-family: var(--font-primary);
+    width:40%;
+}
+
+.education > * {
+    margin-bottom: 1rem;
+}
+
+.education__description {
+    max-width: 30ch;
+}
+
+.education__list {
+    padding: 0 1rem;
+}

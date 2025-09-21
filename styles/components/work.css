@@ -4,6 +4,7 @@
     flex-direction: column;
     gap: 2rem;
     padding: 1rem;
+    width: 35%;
 }
 
 .work__container > * {
@@ -22,7 +23,7 @@
 .work__title {
     font-family: var(--font-secondary);
     font-size: var(--size-3xl);
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .work__description {
