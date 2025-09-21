@@ -39,7 +39,11 @@ body{
     margin: 50px auto;
 }
 
-/* .title{} */
+.title{
+    font-family: var(--font-secondary);
+    font-size: var(--size-4xl);
+    line-height: 1;
+}
 
 .section {
     margin-top: 5rem;
