@@ -1,0 +1,40 @@
+.work {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.work__container > * {
+    margin-bottom: 1rem;
+}
+
+.work__container {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid black;
+}
+
+.work__container:last-child {
+    border-bottom: none;
+}
+
+.work__title {
+    font-family: var(--font-secondary);
+    font-size: var(--size-3xl);
+    font-weight: 500;
+}
+
+.work__description {
+    font-family: var(--font-primary);
+    font-size: 1.1rem;
+    max-width: 30ch;
+}
+
+a {
+    text-decoration: none;
+}
+
+.work__link{
+    font-family: var(--font-primary);
+}
