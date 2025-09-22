@@ -4,7 +4,7 @@
     flex-direction: column;
     gap: 2rem;
     padding: 1rem;
-    width: 35%;
+    flex-grow: 1;
 }
 
 .work__container > * {

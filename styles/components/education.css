@@ -2,7 +2,7 @@
     border: 1px solid black;
     padding: 1rem;
     font-family: var(--font-primary);
-    width:40%;
+    flex-grow: 1;
 }
 
 .education > * {
