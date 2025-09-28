@@ -1,3 +1,9 @@
 .main-info {
     display: flex;
 }
+
+@media (max-width: 375px) {
+    .main-info {
+        display: inline;
+    }
+}

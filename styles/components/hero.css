@@ -10,8 +10,25 @@
 
 .hero__description {
     font-family: var(--font-primary);
+    font-size: var(--size-2xl);
     margin-top: 1rem;
     color: #4a4f5a;
     max-width: 40ch;
     margin-inline: auto;
+}
+
+@media (max-width: 375px) {
+    .hero {
+        padding: 0 1rem;
+        margin-top: 1rem;
+    }
+
+    .hero__title {
+        font-size: var(--size-4xl);
+    }
+
+    .hero__description {
+        font-size: var(--size-xs);
+        margin-top: 0.5rem;
+    }
 }

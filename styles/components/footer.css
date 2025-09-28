@@ -8,3 +8,9 @@
     font-weight: 600;
     margin-bottom: 3rem;
 }
+
+@media (max-width: 375px) {
+    .footer__description {
+        font-size: var(--size-xl);
+    }
+}

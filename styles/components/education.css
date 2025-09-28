@@ -10,9 +10,38 @@
 }
 
 .education__description {
+    font-size: var(--size-xl);
     max-width: 30ch;
 }
 
+.education__list-title {
+    font-size: var(--size-xl);
+}
+
 .education__list {
+    font-size: var(--size-xl);
     padding: 0 1rem;
+}
+
+@media (max-width: 375px) {
+    .title {
+        border-bottom: none;
+    }
+
+    .education > * {
+    margin-bottom: 0.6rem;
+    }
+
+    .education__description {
+        font-size: var(--size-sm);
+        max-width: none;
+    }
+
+    .education__list-title {
+        font-size: var(--size-sm);
+    }
+
+    .education__list {
+        font-size: var(--size-sm);
+    }
 }
